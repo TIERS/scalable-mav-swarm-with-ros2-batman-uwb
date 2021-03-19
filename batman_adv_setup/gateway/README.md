@@ -1,6 +1,10 @@
 ## Setup batman-adv
 
-Follow the following steps to setup a `client` node:
+Follow the following steps to setup a `gateway` node. As the gateway uses IP routing to selectively allow traffic to pass between the Mesh  and home/office networks the Mesh network needs to have a different address range.  The instructions use the following network details:
+
+- Network 192.168.199.x
+- netmask 255.255.255.0
+- gateway address 192.168.199.1
 
 1. To manage the mesh network, a utility called **batctl** needs to be installed.  This can be done using command
 
@@ -11,7 +15,7 @@ Follow the following steps to setup a `client` node:
 2. Create a simlink to the bash script that starts `batman-adv`:
 
     ````
-        ln -s start-batman-adv.sh ~/start-batman-adv.sh
+        ln -s start-batman-adv-gateway.sh ~/start-batman-adv.sh
     ````
 
 3. Make the start-batman-adv.sh file executable with command :
@@ -52,7 +56,23 @@ Follow the following steps to setup a `client` node:
     ```
 
     before the last line: **exit 0**
-8. You can now reboot
+    
+8. Install the DHCP software with command : 
+    
+    ```
+        sudo apt install -y dnsmasq
+    ```
+    
+9. Configure the DHCP server by editing the dnsmasq.conf file as root user and add the following lines to the end of the file:
+
+    ```
+        interface=bat0
+        dhcp-range=192.168.199.2,192.168.199.99,255.255.255.0,12h
+    ```
+
+11. 
+
+10. You can now reboot
 
     ```
     sudo reboot -h now

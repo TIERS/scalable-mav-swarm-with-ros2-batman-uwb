@@ -1,0 +1,5 @@
+auto wlan0
+iface wlan0 inet manual
+    wireless-channel 1
+    wireless-essid call-code-mesh
+    wireless-mode ad-hoc

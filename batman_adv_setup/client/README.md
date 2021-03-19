@@ -11,7 +11,7 @@ Follow the following steps to setup a `client` node:
 2. Create a simlink to the bash script that starts `batman-adv`:
 
     ````
-        ln -s start-batman-adv.sh ~/start-batman-adv.sh
+        ln -s start-batman-adv-client.sh ~/start-batman-adv.sh
     ````
 
 3. Make the start-batman-adv.sh file executable with command :

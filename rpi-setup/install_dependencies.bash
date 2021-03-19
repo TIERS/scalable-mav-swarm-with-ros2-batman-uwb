@@ -21,7 +21,8 @@ sudo apt install -y \
   cmake \
   git \
   python3-pip \
-  wget
+  wget \
+  libopencv-dev
 
 # Install some pip packages
 sudo -H python3 -m pip install \

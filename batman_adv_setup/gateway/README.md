@@ -70,8 +70,6 @@ Follow the following steps to setup a `gateway` node. As the gateway uses IP rou
         dhcp-range=192.168.199.2,192.168.199.99,255.255.255.0,12h
     ```
 
-11. 
-
 10. You can now reboot
 
     ```

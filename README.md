@@ -17,9 +17,9 @@ This repo currently ships a pre-compiled version of ROS2 Foxy with minimal packa
 ### Wi-Fi Mesh and ROS2
 
 1. Download and burn to an SD card the Raspberry Pi OS Lite from the [official downloads page.](https://www.raspberrypi.org/software/operating-systems/)
-2. Follow instructions to set up the mesh network at [BATMAN-ADV Setup](/batman_adv_setup)
+2. Follow instructions to set up the mesh network at [BATMAN-ADV Setup](/batman-adv-setup)
 3. Download pre-compiled ROS2 from `TODO` and follow instructions to set up the development environment at [ROS2 Setup](/ros2)
-4. If you prefer a custom build or you need additional packages, you may [build from source directly at the RPi Zero W](/ros2/local_compilation) (not recommended), or [cross-compile using a docker container](/ros2/cross_compilation)
+4. If you prefer a custom build or you need additional packages, you may [build from source directly at the RPi Zero W](/ros2/local-compilation) (not recommended), or [cross-compile using a docker container](/ros2/cross-compilation)
 
 ### UWB Firmware
 

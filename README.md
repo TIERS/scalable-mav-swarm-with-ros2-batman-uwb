@@ -1,4 +1,4 @@
-# Scalable MAV Swarm with ROS2, a Wi-Fi Mesh and UWB Situated Communication
+# Scalable MAV Swarms: ROS2, Wi-Fi Mesh and UWB Localization
 
 TODO Description
 

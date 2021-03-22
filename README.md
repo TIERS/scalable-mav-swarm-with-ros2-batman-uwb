@@ -1,3 +1,5 @@
+**Work in progress**
+
 # Scalable MAV Swarms: ROS2, Wi-Fi Mesh and UWB
 
 TODO Description
@@ -27,3 +29,13 @@ One of the major goals of this repo is to provide UWB-Based Situated Communicati
 
 1. Download the UWB firmware for the DWM1001-Dev modules from `TODO`
 2. You can find implementation details and configuration instructions at []
+
+## Thanks
+
+- Parts of this repo are based on awesome work to support ROS2 in the E-Puck robot [cyberbotics/epuck_ros2](https://github.com/cyberbotics/epuck_ros2)
+
+- The tello driver is based on a minimalized version from [clydemcqueen/tello_ros](https://github.com/clydemcqueen/tello_ros)
+
+## Contact
+
+If you have any questions or comments feel free to write to `jopequ@utu.fi`.

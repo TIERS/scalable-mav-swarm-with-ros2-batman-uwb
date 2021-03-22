@@ -22,7 +22,8 @@ sudo apt install -y \
   git \
   python3-pip \
   wget \
-  libopencv-dev
+  libopencv-dev \
+  libboost-all-dev
 
 # Install some pip packages
 sudo -H python3 -m pip install \

@@ -1,6 +1,6 @@
 # Cross-Compilation
 
-This guide is adapted from the e-puck ros2 cross-compilation instructions: [https://github.com/cyberbotics/epuck_ros2/blob/master/installation/cross_compile/README.md](https://github.com/cyberbotics/epuck_ros2/blob/master/installation/cross_compile/)
+This guide is adapted from the  [https://github.com/cyberbotics/epuck_ros2/blob/master/installation/cross_compile/README.md](e-puck ros2 cross-compilation) instructions.
 
 ## Before you start
 

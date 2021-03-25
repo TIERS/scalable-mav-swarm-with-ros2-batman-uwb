@@ -4,7 +4,7 @@ This guide is adapted from the  [e-puck ros2 cross-compilation](https://github.c
 
 ## Before you start
 
-- Make sure you have folloed the instructions at [RPi setup steps. ](/ros2/rpi-setup/README.md)
+- Make sure you have folloed the instructions at [RPi setup steps. ](https://github.com/TIERS/scalable-mav-swarm-with-ros2-batman-uwb/tree/main/rpi-setup)
 - Install docker on your system
 
 ## ROS2 Cross-Compilation on Your PC

@@ -17,7 +17,7 @@ ln -s start-batman-adv-client.sh ~/start-batman-adv.sh
 3. Make the start-batman-adv.sh file executable with command :
 
 ```
-chmod +x ~/start-batman-adv.sh
+chmod +x start-batman-adv.sh
 ```
 
 4. Create the network interface definition for the wlan0 interface by creating a file as root user e.g.

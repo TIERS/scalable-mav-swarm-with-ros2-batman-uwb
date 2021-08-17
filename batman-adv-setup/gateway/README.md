@@ -14,11 +14,11 @@ sudo apt install -y batctl
 
 2. Create a simlink to the bash script that starts `batman-adv`:
 
-````
+```
 git clone https://github.com/TIERS/scalable-mav-swarm-with-ros2-batman-uwb.git
 cd scalable-mav-swarm-with-ros2-batman-uwb/batman-adv-setup/gateway/
 ln -s start-batman-adv-gateway.sh ~/start-batman-adv.sh
-````
+```
 
 3. Make the start-batman-adv.sh file executable with command :
 
@@ -36,13 +36,13 @@ You can replace:
 - the channel number with a [valid 2.4 GHz WiFi channel number for your region](https://en.wikipedia.org/wiki/List_of_WLAN_channels) (most regions support channels 1 to 11)
 - the essid with a network name of your choosing
 
-However, these values must be the same on ALL devices that will form your mesh network.
+    However, these values must be the same on ALL devices that will form your mesh network.
 
 5. Ensure the batman-adv kernel module is loaded at boot time by issuing the following command :
 
-    ```
-        echo 'batman-adv' | sudo tee --append /etc/modules
-    ```
+```
+echo 'batman-adv' | sudo tee --append /etc/modules
+```
 
 6. Stop the DHCP process from trying to manage the wireless lan interface by issuing the following command :
 
@@ -56,7 +56,7 @@ echo 'denyinterfaces wlan0' | sudo tee --append /etc/dhcpcd.conf
 /home/pi/start-batman-adv.sh &
 ```
 
-    before the last line: **exit 0**
+before the last line: **exit 0**
     
 8. Install the DHCP software with command : 
     

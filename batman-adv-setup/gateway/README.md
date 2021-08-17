@@ -32,12 +32,11 @@ chmod +x start-batman-adv.sh
 sudo cp wlan0_setup /etc/network/interfaces.d/wlan0
 ```
 
-    You can replace:
+You can replace:
+- the channel number with a [valid 2.4 GHz WiFi channel number for your region](https://en.wikipedia.org/wiki/List_of_WLAN_channels) (most regions support channels 1 to 11)
+- the essid with a network name of your choosing
 
-    - the channel number with a [valid 2.4 GHz WiFi channel number for your region](https://en.wikipedia.org/wiki/List_of_WLAN_channels) (most regions support channels 1 to 11)
-    - the essid with a network name of your choosing
-
-    However, these values must be the same on ALL devices that will form your mesh network.
+However, these values must be the same on ALL devices that will form your mesh network.
 
 5. Ensure the batman-adv kernel module is loaded at boot time by issuing the following command :
 

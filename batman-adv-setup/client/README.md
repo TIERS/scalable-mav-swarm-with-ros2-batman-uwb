@@ -23,7 +23,7 @@ chmod +x start-batman-adv-client.sh
 4. Create the network interface definition for the wlan0 interface by creating a file as root user e.g.
 
 ```
-sudo cp wlan0_setup /etc/network/interfaces.d/wlan0
+sudo cp wlan0_config /etc/network/interfaces.d/wlan0
 ```
 
 You can replace:
